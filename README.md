@@ -71,7 +71,7 @@ The `opts` are passed directly to the `replicate()` API [as described here](http
 * `batch_size` - how many documents to dump in each output chunk. Defaults to 50.
 * `since` - the `seq` from which to start reading changes.
 
-The options you are allowed to pass through are: `batch_size`, `batches_limit`, `filter`, `doc_ids`, `query_params`, `since`, and `view`.
+The options you are allowed to pass through are: `batch_size`, `batches_limit`, `checkpointing`, `doc_ids`, `filter`, `limit`, `query_params`, `since`, and `view`.
 
 ### db.load(stream)
 
