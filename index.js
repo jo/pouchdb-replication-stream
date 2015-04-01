@@ -12,8 +12,10 @@ var DEFAULT_BATCH_SIZE = 50;
 var ALLOWED_PARAMS = [
   'batch_size',
   'batches_limit',
-  'filter',
+  'checkpointing',
   'doc_ids',
+  'filter',
+  'limit',
   'query_params',
   'since',
   'view'
